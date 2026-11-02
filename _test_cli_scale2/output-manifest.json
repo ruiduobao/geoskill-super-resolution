@@ -2,8 +2,8 @@
   "skill": "super-resolution",
   "skill_version": "1.0.0",
   "command": "super-resolution --bbox 116 39 117 40 --synthetic --scale 2 --quiet --output-dir ./_test_cli_scale2",
-  "started_at": "2026-08-03T17:03:03.704000Z",
-  "finished_at": "2026-08-03T17:03:03.920967Z",
+  "started_at": "2026-11-02T15:49:56.728416Z",
+  "finished_at": "2026-11-02T15:49:57.234354Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -15,7 +15,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_scale2\\super_resolved.tif",
+      "path": "./_test_cli_scale2/super_resolved.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -32,7 +32,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_scale2\\qa.json",
+      "path": "./_test_cli_scale2/qa.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -71,7 +71,7 @@
     "psnr_db_overall": 46.35010670152866
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "super-resolution"
   },
   "error": null
